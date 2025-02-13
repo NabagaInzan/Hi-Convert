@@ -17,6 +17,3 @@ python manage.py collectstatic --no-input
 
 # Run migrations
 python manage.py migrate
-
-# Make sure the script is executable
-chmod +x gunicorn_config.py
